@@ -14,7 +14,7 @@ Sparse weighted multilinear least-squares is a generalization of the sparse mult
 
 If you use this code in a scientific publication, please cite the following paper:
 
-Ishan M. Wickramasingha1, Biniyam K. Mezgebo, and Sherif S. Sherif. "Weighted Tensor Least Angle Regression for Solving Sparse Weighted Multilinear Least Squares Problems" New Approaches for Multidimensional Signal Processing: Proceedings of International Workshop, NAMSP 2023. Springer Nature, 2023.
+Ishan M. Wickramasingha, Biniyam K. Mezgebo, and Sherif S. Sherif. "Weighted Tensor Least Angle Regression for Solving Sparse Weighted Multilinear Least Squares Problems" New Approaches for Multidimensional Signal Processing: Proceedings of International Workshop, NAMSP 2023. Springer Nature, 2023.
 
  Wickramasingha I, Elrewainy A, Sobhy M, Sherif SS. Tensor Least Angle Regression for Sparse Representations of Multidimensional Signals. Neural Comput. 2020;32(9):1-36. doi:10.1162/neco_a_01304 
 
