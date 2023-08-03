@@ -1,18 +1,20 @@
 ## Weighted Tesnor Least Angle Regression (WT-LARS)
 
     WTLARS v1.0.0
-    Author : Ishan Wickramasingha, Sherif S. Sherif
-    Date : 2020/08/26
-    Modified Date : 2022/01/05
+    Author: Ishan Wickramasingha, , Biniyam K. Mezgebo, Sherif S. Sherif
+    Date: 2020/08/26
+    Modified Date: 2023/08/02
 
-    MATLAB Version : MATLAB R2017b and above
+    MATLAB Version: MATLAB R2017b and above
 
 # Abstract:
-Sparse weighted multilinear least-squares is a generalization of the sparse multilinear least-squares problem, where prior information about, e.g., parameters and data is incorporated by multiplying both sides of the original problem by a typically diagonal weights matrix. However, the introduction of arbitrary diagonal weights would result in a non-Kronecker least-squares problem that could be very large to store or solve practically. In this letter, we generalize our recent Tensor Least Angle Regression (T-LARS) algorithm to efficiently solve either L0 or L1 constrained multilinear least-squares problems with arbitrary diagonal weights for all critical values of their regularization parameter. To demonstrate the validity of our new Weighted Least Angle Regression (WT-LARS) algorithm, we used it to successfully solve three different image inpainting problems by obtaining sparse representations of binary-weighted images. 
+Sparse weighted multilinear least-squares is a generalization of the sparse multilinear least-squares problem, where prior information about, e.g., parameters and data is incorporated by multiplying both sides of the original problem by a typically diagonal weights matrix. However, the introduction of arbitrary diagonal weights would result in a non-Kronecker least-squares problem that could be very large to store or solve practically. In this paper, we generalize our recent Tensor Least Angle Regression (T-LARS) algorithm to efficiently solve either L0 or L1 constrained multilinear least-squares problems with arbitrary diagonal weights for all critical values of their regularization parameter. To demonstrate the validity of our new Weighted Least Angle Regression (WT-LARS) algorithm, we used it to successfully solve three different image inpainting problems by obtaining sparse representations of binary-weighted images. 
 
 # References
 
 If you use this code in a scientific publication, please cite the following paper:
+
+Ishan M. Wickramasingha1, Biniyam K. Mezgebo, and Sherif S. Sherif. "Weighted Tensor Least Angle Regression for Solving Sparse Weighted Multilinear Least Squares Problems" New Approaches for Multidimensional Signal Processing: Proceedings of International Workshop, NAMSP 2023. Springer Nature, 2023.
 
  Wickramasingha I, Elrewainy A, Sobhy M, Sherif SS. Tensor Least Angle Regression for Sparse Representations of Multidimensional Signals. Neural Comput. 2020;32(9):1-36. doi:10.1162/neco_a_01304 
 
@@ -24,11 +26,11 @@ MATLAB Version: MATLAB R2017b and above
 
 # Function Calls
 
-The WT-LARS function could be called with the following function call
+The WT-LARS function could be called with the following function call.
 
     [ X ] = WTLARS( Y, D_cell_array, w, Tolerence);
 
- Also, the WT-LARS supports function calls with more than one available outputs and three available inputs
+ Also, the WT-LARS supports function calls with more than one available output and three available inputs
  
     [ X, Active_Columns ] = WTLARS( Y, D_cell_array, w, Active_Columns_Limit, ...);
     [ X, Active_Columns, x ] = WTLARS( Y, D_cell_array, w, Active_Columns_Limit, ...);
