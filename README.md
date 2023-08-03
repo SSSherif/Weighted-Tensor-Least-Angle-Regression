@@ -1,7 +1,7 @@
 ## Weighted Tesnor Least Angle Regression (WT-LARS)
 
     WTLARS v1.0.0
-    Author: Ishan Wickramasingha, , Biniyam K. Mezgebo, Sherif S. Sherif
+    Author: Ishan Wickramasingha, Biniyam K. Mezgebo, Sherif S. Sherif
     Date: 2020/08/26
     Modified Date: 2023/08/02
 
